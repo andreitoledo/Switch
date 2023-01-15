@@ -2,9 +2,15 @@
 using System;
 
 namespace Switch.Domain.Entities
-{
+{   
+
     public class Usuario
     {
+        public Usuario()
+        {
+            
+        }
+
         public int Id { get; private set; }
         public string Nome { get; set; }
         public string SobreNome { get; set; }
@@ -14,5 +20,10 @@ namespace Switch.Domain.Entities
         public SexoEnum Sexo { get; set; }
         public string UrlFoto { get; set; }
 
+      
+
     }
+
+    
+
 }
